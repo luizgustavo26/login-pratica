@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario de Login</title>
+</head>
+<body>
+    <h1>Cadastro de Dev's</h1>
+    <div class="caixa">
+        <form>
+            <fieldset class="part1">
+                <label class="nome1"> Nome</label>
+                <input type="text" name="nome " id="nome"><br>
+
+                <label class="senha1">Senha</label>
+                <input type="password" name="password" id="password"><br>
+
+                <label class="email1">Email</label>
+                <input type="email" name="email" id="email">
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <strong>
+            <h3>
+                Qual aplicação você desenvolve?
+            </h3>
+        </strong>
+        <label class="devweb">
+            <input type="radio" name="devweb" value="Front-end" checked>Front-end
+            <input type="radio" name="devweb" value="Back-end">Back-end
+            <input type="radio" name="devweb" value="Fullstack">Fullstack
+        </label>
+    </div>
+    <br>
+    <div>
+        <label>Senioridade</label>
+            <select id="senioridade">
+                <option selected disabled value="">Escolha...</option>
+                <option>Junior</option>
+                <option>Pleno</option>
+                <option>Senior</option>
+            </select>
+    </div>
+    <fieldset class="parte2">
+        <div>
+          <label class="checkbox">
+            <h3>Selecione as tecnologias que ultiliza</h3>
+              
+            <input type="checkbox" id="tecnologia01" name="devweb" value="HTML">HTML
+            <input type="checkbox" id="tecnologia02" name="devweb" value="CSS">CSS
+            <input type="checkbox" id="tecnologia03" name="devweb" value="Javascript">Javascript
+            <input type="checkbox" id="tecnologia04" name="devweb" value="React"> React
+            <input type="checkbox" id="tecnologia05" name="devweb" value="Python">Python
+          </label>
+
+        </div>
+    </fieldset>
+
+    <div>
+        <br>
+        <label>
+            <h4>Conte um pouco mais sobre você</h4>
+            <textarea  row 6="experiência" id="caixa"></textarea>
+            <button ="submit">Concluido</button>
+        </label>
+    </div>
+
+    
+</body>
+</html>
